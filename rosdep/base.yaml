@@ -449,6 +449,7 @@ collada-dom:
   arch: [collada-dom]
   debian: [collada-dom-dev]
   fedora: [collada-dom-devel]
+  rhel: [collada-dom-devel]
   gentoo:
     portage:
       packages: [media-libs/collada-dom]
@@ -1860,6 +1861,7 @@ libpoco-dev:
   arch: [poco]
   debian: [libpoco-dev]
   fedora: [poco-devel]
+  rhel: [poco-devel]
   gentoo:
     portage:
       packages: [dev-libs/poco]
