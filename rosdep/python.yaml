@@ -231,6 +231,7 @@ python-bson:
 python-cairo:
   debian: [python-cairo]
   fedora: [pycairo]
+  rhel: [pycairo]
   ubuntu:
     lucid: [python-cairo]
     oneiric: [python-cairo]
@@ -932,6 +933,7 @@ python-opencv:
   arch: [opencv, python2-numpy]
   debian: [python-opencv]
   fedora: [opencv-python]
+  rhel: [opencv-python]
   ubuntu:
     saucy: [python-opencv]
     trusty: [python-opencv]
@@ -1073,6 +1075,7 @@ python-psutil:
   arch: [python2-psutil]
   debian: [python-psutil]
   fedora: [python-psutil]
+  rhel: [python-psutil]
   gentoo: [dev-python/psutil]
   macports: [py27-psutil]
   opensuse: [python-psutil]
@@ -1184,6 +1187,7 @@ python-pygraph:
 python-pygraphviz:
   debian: [python-pygraphviz]
   fedora: [graphviz-python]
+  rhel: [graphviz-python]
   osx:
     pip:
       packages: [pygraphviz]
@@ -1375,6 +1379,7 @@ python-qt-bindings-gl:
   arch: [python2-pyqt4]
   debian: [python-qt4-gl]
   fedora: [PyQt4]
+  rhel: [PyQt4]
   gentoo: [PyQt4]
   opensuse: [python-qt4-devel]
   ubuntu:
@@ -1393,6 +1398,7 @@ python-qt-bindings-qwt5:
   arch: [pyqwt]
   debian: [python-qwt5-qt4]
   fedora: [PyQwt-devel]
+  rhel: [PyQwt-devel]
   gentoo: [dev-python/pyqwt]
   macports: [qwt52]
   ubuntu:
