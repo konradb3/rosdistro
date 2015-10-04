@@ -248,6 +248,7 @@ python-catkin-pkg:
   arch: [python2-catkin-pkg]
   debian: [python-catkin-pkg]
   fedora: [python-catkin_pkg]
+  rhel: [python-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
   macports: [python-catkin-pkg]
   opensuse: [python-catkin_pkg]
