@@ -1193,6 +1193,7 @@ libconsole-bridge-dev:
   arch: [console-bridge]
   debian: [libconsole-bridge-dev]
   fedora: [console-bridge-devel]
+  rhel: [console-bridge-devel]
   gentoo: [dev-libs/console_bridge]
   ubuntu:
     saucy: [libconsole-bridge-dev]
@@ -2566,6 +2567,7 @@ lz4:
   arch: [lz4]
   debian: [liblz4-dev]
   fedora: [lz4-devel]
+  rhel: [lz4-devel]
   gentoo: [app-arch/lz4]
   ubuntu:
     saucy: [liblz4-dev]
@@ -3008,6 +3010,7 @@ sbcl:
   arch: [sbcl]
   debian: [sbcl]
   fedora: [sbcl]
+  rhel: [sbcl]
   gentoo:
     portage:
       packages: [dev-lisp/sbcl]
