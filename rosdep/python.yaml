@@ -940,6 +940,7 @@ python-opencv:
 python-opengl:
   debian: [python-opengl]
   fedora: [PyOpenGL]
+  rhel: [PyOpenGL]
   gentoo: [dev-python/pyopengl]
   macports: [py27-opengl]
   opensuse: [python-opengl]
@@ -1130,6 +1131,7 @@ python-pydot:
   arch: [python2-pydot]
   debian: [python-pydot]
   fedora: [pydot]
+  rhel: [pydot]
   gentoo:
     portage:
       packages: [media-gfx/pydot]
