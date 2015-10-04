@@ -1732,6 +1732,7 @@ libopencv-dev:
   arch: [opencv]
   debian: [libopencv-dev]
   fedora: [opencv-devel]
+  rhel: [opencv-devel]
   gentoo: [media-libs/opencv]
   macports: [opencv]
   ubuntu:
