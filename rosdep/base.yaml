@@ -941,6 +941,7 @@ hddtemp:
   arch: [hddtemp]
   debian: [hddtemp]
   fedora: [hddtemp]
+  rhel: [hddtemp]
   gentoo:
     portage:
       packages: [app-admin/hddtemp]
@@ -1969,6 +1970,7 @@ libqhull:
   arch: [qhull]
   debian: [libqhull-dev]
   fedora: [qhull-devel]
+  rhel: [qhull-devel]
   gentoo: [media-libs/qhull]
   macports: [qhull]
   opensuse: [qhull-devel]
@@ -2309,6 +2311,7 @@ liburdfdom-dev:
   arch: [urdfdom]
   debian: [liburdfdom-dev]
   fedora: [urdfdom-devel]
+  rhel: [urdfdom-devel]
   gentoo: [dev-libs/urdfdom]
   ubuntu:
     saucy: [liburdfdom-dev]
@@ -2319,6 +2322,7 @@ liburdfdom-headers-dev:
   arch: [urdfdom-headers]
   debian: [liburdfdom-headers-dev]
   fedora: [urdfdom-headers-devel]
+  rhel: [urdfdom-headers-devel]
   gentoo: [dev-libs/urdfdom_headers]
   ubuntu:
     saucy: [liburdfdom-headers-dev]
@@ -2927,6 +2931,7 @@ qhull-bin:
   arch: [qhull]
   debian: [qhull-bin]
   fedora: [qhull]
+  rhel: [qhull]
   ubuntu: [qhull-bin]
 qt4-dev-tools:
   arch: [qt4]
