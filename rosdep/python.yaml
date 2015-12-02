@@ -718,6 +718,7 @@ python-libpcap:
     trusty: [python-libpcap]
 python-lxml:
   fedora: [python-lxml]
+  rhel: [python-lxml]
   ubuntu: [python-lxml]
 python-mako:
   ubuntu: [python-mako]
