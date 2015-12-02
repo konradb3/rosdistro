@@ -1815,6 +1815,7 @@ libpcl-all:
 libpcl-all-dev:
   arch: [pcl]
   fedora: [pcl-devel]
+  rhel: [pcl-devel]
   gentoo:
     portage:
       packages: [sci-libs/pcl]
@@ -2210,6 +2211,7 @@ libtheora:
   arch: [libtheora]
   debian: [libtheora-dev]
   fedora: [libtheora-devel]
+  rhel: [libtheora-devel]
   gentoo: [media-libs/libtheora]
   macports: [libtheora]
   opensuse: [libtheora-devel]
@@ -2415,6 +2417,7 @@ libvtk-java:
   arch: [vtk]
   debian: [libvtk-java]
   fedora: [vtk-java]
+  rhel: [vtk-java]
   gentoo: [sci-libs/vtk]
   ubuntu:
     lucid: [libvtk-java]
