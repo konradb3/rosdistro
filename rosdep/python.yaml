@@ -2022,6 +2022,7 @@ python-vtk:
   arch: [vtk]
   debian: [python-vtk]
   fedora: [vtk-python]
+  rhel: [vtk-python]
   ubuntu:
     lucid: [python-vtk]
     precise: [python-vtk]
